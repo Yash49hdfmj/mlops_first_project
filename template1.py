@@ -2,10 +2,10 @@ import os
 from pathlib import Path
 import logging
 
-project_name = "mlops_first_project"
+project_name = "datascienceproject"
 list_of_files = [
     ".gthub/workflows/.gitkeep",
-    f"src/{project_name}/__init.py__",
+    f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/util/__init__.py",
     f"src/{project_name}/util/common.py__",
